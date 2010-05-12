@@ -4,6 +4,13 @@ by Guillaume Pierronnet
 * http://ruby-audioinfo.rubyforge.org
 * http://rubyforge.org/projects/ruby-audioinfo/
 
+== ANNOUNCEMENT
+
+The development of this Ruby1.9-compatible has been moved to Panmind's repository.
+
+You can find it at http://github.com/Panmind/ruby-audioinfo. Follow that repo to
+catch up with developments :-).
+
 == DESCRIPTION:
 
 ruby-audioinfo glue together various audio ruby libraries and presents a unified
