@@ -5,11 +5,11 @@ begin
   require 'jeweler'
 
   Jeweler::Tasks.new do |gemspec|
-    gemspec.name        = 'vjt-ruby-audioinfo'
+    gemspec.name        = 'panmind-ruby-audioinfo'
     gemspec.version     = AudioInfo::VERSION
     gemspec.authors     = ['Guillaume Pierronnet', 'Marcello Barnaba']
     gemspec.email       = 'moumar@rubyforge.org'
-    gemspec.date        = '2010-03-20'
+    gemspec.date        = '2011-01-14'
 
     gemspec.homepage    = 'http://ruby-audioinfo.rubyforge.org'
     gemspec.summary     = 'Unified audio info access library'
@@ -21,11 +21,11 @@ begin
     gemspec.has_rdoc         = true
     gemspec.require_path     = 'lib'
 
-    gemspec.add_dependency 'ruby-mp3info', '>= 0.6.3'
-    gemspec.add_dependency 'ruby-ogginfo', '>= 0.3.1'
-    gemspec.add_dependency 'mp4info',      '>= 1.7.3'
-    gemspec.add_dependency 'wmainfo-rb',   '>= 0.5'
-    gemspec.add_dependency 'flacinfo-rb',  '>= 0.4'
+    gemspec.add_dependency 'ruby-mp3info', '~> 0.6.3'
+    gemspec.add_dependency 'ruby-ogginfo', '~> 0.4.2'
+    gemspec.add_dependency 'mp4info',      '~> 1.7.3'
+    gemspec.add_dependency 'wmainfo-rb',   '~> 0.5'
+    gemspec.add_dependency 'flacinfo-rb',  '~> 0.4'
   end
 rescue LoadError
   puts 'Jeweler not available. Install it with: gem install jeweler'
